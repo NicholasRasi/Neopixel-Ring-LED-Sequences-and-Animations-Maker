@@ -1,0 +1,81 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.9.10",
+    "versionPublish": "2.9.10",
+    "name": "LED Sequences & Animations Maker for Neopixel Ring",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise"
+    },
+    "favicon": "@PROJECT_PATH@/assets/images/senza-titolo-1-565x563-64.png",
+    "publishType": "local",
+    "publishPath": "file:///D:/Develop/Workspace/Javascript/Neopixel-Ring-LED-Sequences-and-Animations-GUI-Maker/Site"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Mobirise Mobile Website Builder",
+        "meta_descr": "Free Responsive Website Maker. Create awesome mobile-first websites. Easy and fast - No coding!",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-3",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1586-00-1200x900-4.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "title": "LED Sequences &amp; Animations Maker for Neopixel Ring",
+          "text": "Create awesome animations and color sequences for your<br> Neopixel ring right in the browser! <b>It's easy and free!</b><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">TRY IT!</a> ",
+          "_styles": {
+            "P": {
+              "font-size": "23px"
+            },
+            "H1": {
+              "font-size": "48px",
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "2016 <a href=\"http://makeb.it\" target=\"_blank\">Makeb.it</a>."
+        }
+      ]
+    }
+  }
+}
