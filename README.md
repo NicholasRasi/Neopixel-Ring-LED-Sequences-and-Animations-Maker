@@ -5,3 +5,6 @@ This is a GUI (graphical user interface) to easily create sequences and animatio
 ![](http://i.imgur.com/2ywz6YT.gif)
 ### [TRY IT!](https://rawgit.com/makebit/Neopixel-Ring-LED-Sequences-and-Animations-Maker/master/index.html)
 ### Click on **Tour** for a short guide!
+
+### Settings
+**Set this value before you'll start to create the animation. You can choose the number of LEDs and how long the animation will be.
