@@ -1,10 +1,10 @@
 # LEDSY
 # Neopixel Ring
 # LED Sequences & Animations Maker
-### Create beautiful animation for your ring in a click!
+### Create beautiful animation for your ring in just few clicks!
 Neopixel Ring is a beautiful LED RGB ring but creating animations for it is not too easy.
 With this GUI you can create awesome sequences and animations in just few clicks!
-![](http://i.imgur.com/2ywz6YT.gif)
+![](http://i.imgur.com/FIopbi6.gif)
 ### [LET'STRY IT!](http://makebit.github.io/Neopixel-Ring-LED-Sequences-and-Animations-Maker/ledsy.html) - Click on Tour for a short guide!
 
 ### Settings
