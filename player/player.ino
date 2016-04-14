@@ -4,7 +4,7 @@
 // Settings
 #define PIN 12
 #define BRIGHTNESS 255 // 0-255
-// Set this parameter equal to those set into Ledsy
+// Set this parameters equal to those set into Ledsy
 #define NUMBER_OF_PIXELS 24
 #define SEQUENCE_LENGTH 46
 #define SLICE_DURATION 150
