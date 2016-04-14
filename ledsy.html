@@ -104,6 +104,10 @@
             color: white;
         }
 
+        #box-color{
+            position: fixed;
+        }
+
         #steps, #position, #controller {
         }
 
@@ -270,7 +274,6 @@
 <script src="https://cdn.jsdelivr.net/intro.js/2.0.0/intro.min.js"></script>
 <script type="text/javascript">
 
-
     var radius = 200;
     var offset = 200;
     var numberOfLeds = 24;
@@ -285,7 +288,7 @@
     $("#steps").selectable();
 
 
-    // Led slider: with this slider you can choose the number of leds in your ring
+    // Led slider
     $(function () {
         var slider_lednumber = $("#slider-lednumber").slider({
             value: 24,
@@ -293,7 +296,7 @@
             max: 58,
             step: 1,
             slide: function (event, ui) {
-                $("#lednumber").val("Led number: " + ui.value);
+                $("#lednumber").val("Leds number: " + ui.value);
                 numberOfLeds = ui.value;
                 initSequence();
                 clearLeds();
@@ -302,10 +305,10 @@
                 printSteps();
             }
         });
-        $("#lednumber").val("Led number: " + slider_lednumber.slider("value"));
+        $("#lednumber").val("Leds number: " + slider_lednumber.slider("value"));
     });
 
-    // Timeslice slider: with this slider you can choose the duration of each slice
+    // Timeslice slider
     $(function () {
         var slider_timeslice = $("#slider-timeslice").slider({
             value: 150,
@@ -320,7 +323,7 @@
         $("#timeslice").val("Slice duration: " + slider_timeslice.slider("value"));
     });
 
-    // Sequence length slider: with this slider you can choose the duration the animation
+    // Sequence length slider
     $(function () {
         var slider_sequence_length = $("#slider-sequence-length").slider({
             value: 10,
@@ -342,7 +345,7 @@
         $("#sequencelength").val("Sequence length: " + slider_sequence_length.slider("value"));
     });
 
-    // Step slider: with this slider you can go through out the timeslices
+    // Step slider
     $(function () {
         $("#slider-step").slider({
             value: 0,
@@ -462,7 +465,9 @@
         }
         saveit += '}';
         $("#code-output").empty().append(saveit);
-        $("#output-button").click();
+
+        if(!($("#output").hasClass("in")))
+            $("#output-button").click();
     });
 
     $("#load").click(function () {
