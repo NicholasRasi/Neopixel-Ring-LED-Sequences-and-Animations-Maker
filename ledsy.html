@@ -435,6 +435,9 @@
 
     //Buttons
     $("#play").click(function () {
+        // Clear previous interval, if set
+        clearInterval(playInterval);
+        // Set new playInterval
         playInterval = setInterval(function () {
             j = ($("#slider-step").slider("value") + 1) % sequenceLength;
             $("#slider-step").slider("value", j);
